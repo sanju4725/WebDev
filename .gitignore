@@ -1,3 +1,4 @@
 /webdev/*
 /puddle/media/*
 /ecommercesite/node_modules/*
+*/__pycache__/*
