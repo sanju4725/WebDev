@@ -2,7 +2,7 @@ from django.db import models
 from django.urls import reverse
 
 # Create your models here.
-class Catergory(models.Models):
+class Catergory(models.Model):
     name = models.CharField(max_length=256)
     slug = models.SlugField(unique=True)
 
@@ -29,4 +29,4 @@ class Product(models.Model):
         return self.name
     
     def get_absolute_url(self):
-        return reverse()
+        return reverse('product:product_detail',kwargs={'id':self.id, 'slug':self.slug})
