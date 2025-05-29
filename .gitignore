@@ -1,7 +1,6 @@
 /webdev/*
-/puddle/media/*
-/ecommercesite/node_modules/*
 /*/__pycache__/*
 /*/*/__pycache__/*
 /*/*/*/__pycache__/*
 /*/*/*/*/__pycache__/*
+/ecommerce_site/static/img/*
